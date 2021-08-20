@@ -1,0 +1,35 @@
+.main-menu {
+    max-width: 80vw;
+    margin: 1.5rem auto 0;
+}
+
+.main-menu__title {
+    margin-bottom: .5rem;
+}
+
+.menu {
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.menu__item {
+    list-style: none;
+    background-color: #289483;
+    display: inline-block;
+    transition: transform .345s;
+}
+
+.menu__item:active {
+    transform: scale(.9);
+}
+
+.menu__link {
+    padding: .5rem;
+    text-decoration: unset;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.layout {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button-go-to-back {
+    position: absolute;
+    margin-top: 2rem;
+    padding: .5rem;
+    left: 10%;
+    background-color: #ddd;
+    border-radius: 6px;
+    border: 1px solid #8f8f8f;
+    text-decoration: unset;
+    color: #000;
+    transition: transform .345s;
+}
+
+.button-go-to-back:active {
+    transform: scale(.9);
+}

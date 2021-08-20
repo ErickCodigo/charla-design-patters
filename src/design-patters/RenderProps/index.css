@@ -1,0 +1,25 @@
+.clock-container {
+    background-color: aliceblue;
+    border: 1px solid #b6b6b6;
+    border-radius: 6px;
+    padding: .5rem;
+    display: inline-block;
+    margin: 2rem auto 0;
+}
+
+.clock-container__card {
+    background-color: #289483;
+    border-radius: 6px;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    color: white;
+    transition: transform 1s;
+}
+
+.clock-container__card:hover {
+    transform: scale(1.2);
+}
