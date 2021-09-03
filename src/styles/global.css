@@ -26,3 +26,7 @@
 .button-go-to-back:active {
     transform: scale(.9);
 }
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}

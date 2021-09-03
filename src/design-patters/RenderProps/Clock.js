@@ -25,12 +25,12 @@ const Clock = ({render}) => {
     useEffect(() => {
         const id = window.setInterval(() => {
             setCount(getCurrentTime());
-        }, 1000)
+        }, 1000);
 
         return () => {
             window.clearInterval(id);
         }
-    }, [])
+    }, []);
 
     return <Presenter value={render(count)}/>
 };

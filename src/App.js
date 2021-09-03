@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import MainMenu from "./MainMenu";
 import RenderProps from "./design-patters/RenderProps";
-import "./global.css";
+import "./styles/global.css";
 import TesterFactoryPatters from "./design-patters/Factory/Tester";
 
 function App() {
